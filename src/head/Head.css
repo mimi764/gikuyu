@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.thak{  
+    border-radius: 12px;
+    background: linear-gradient(to right, green, rgb(231, 43, 43), rgb(26, 17, 17));
+}
+.head span{
+    font-size: 22px;
+    padding-left: 8rem;
+    font-weight: 600;
+    color: white;
+    background: none;
+}
+
+.head h1{
+    background: linear-gradient(to right, green, rgb(231, 43, 43), rgb(26, 17, 17));
+    font-size: 5rem;
+    color: rgb(84, 235, 84);
+    font-weight: 700;
+    padding-left: 2rem;
+}
+.head strong{
+    background: none;
+}
+.head p{
+    background: rgb(218, 215, 215);
+    border-radius: 9px;
+    line-height: 29px;
+    padding: 4px 14px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+.thak{  
+    border-radius: 8px;
+    background: linear-gradient(to right, green, rgb(231, 43, 43), rgb(26, 17, 17));
+}
+.head span{
+    font-size: 19px;
+    padding-left: 5rem;
+    font-weight: 600;
+    color: white;
+    background: none;
+}
+
+.head h1{
+    background: linear-gradient(to right, green, rgb(231, 43, 43), rgb(26, 17, 17));
+    font-size: 3rem;
+    color: rgb(84, 235, 84);
+    font-weight: 700;
+    padding-left: 1.2rem;
+}
+.head strong{
+    background: none;
+}
+.head p{
+    background: rgb(218, 215, 215);
+    border-radius: 5px;
+    line-height: 19px;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+    
+}
+
+
+@media screen and (max-width: 360px) {
+.thak{  
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(74, 107, 74), rgb(122, 44, 44), rgb(26, 17, 17));
+}
+.head span{
+    font-size: 18px;
+    padding-left: 3rem;
+    font-weight: 600;
+    color: white;
+    background: none;
+}
+
+.head h1{
+    font-size: 1rem;
+    color: rgb(84, 235, 84);
+    font-weight: 500;
+    padding-left: 10px;
+}
+.head strong{
+    background: none;
+}
+.head p{
+    background: rgb(218, 215, 215);
+    border-radius: 3px;
+    line-height: 13px;
+    padding: 2px 10px;
+    font-size: 10px;
+}
+    
+}
