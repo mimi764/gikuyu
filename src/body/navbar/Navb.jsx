@@ -22,6 +22,9 @@ export default function Navbar() {
 </div>
         {/* Links */}
         <nav className={`nav-links ${open ? "open" : ""}`}>
+          <NavLink to="/navv" onClick={() => setOpen(false)}>
+            MÚCIÍ
+          </NavLink>
           
           <NavLink to="/about" onClick={() => setOpen(false)}>
             THIMO

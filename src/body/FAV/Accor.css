@@ -57,6 +57,7 @@
 .accordion-content{
     justify-content: center;
     font-size: 20px;
+    font-weight: 300;
     background: rgb(170, 167, 167);
     color: black;
 }
@@ -189,6 +190,7 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    font-weight: 300;
     color: black;
 }
 .favs{
