@@ -23,8 +23,8 @@ const AccordionList = () => {
        
       />
 <p className="p">
-  Ngwíhonga wí thaayú, ngehoya angíngorwo no úthimúre thimo ugerere 
-   <a href="https://chat.whatsapp.com/JmUBjjzRG0H1h74Zxa7jT5">WhatsApp</a>. níguo túkínorane na úgí úyú wa nyene.
+  Ngwíhoka wí thaayú, ngehoya angíngorwo no úthimúre thimo, gerera 
+   <a href="https://chat.whatsapp.com/JmUBjjzRG0H1h74Zxa7jT5">WhatsApp</a> níguo túkínorane na úgí úyú wa nyene.
 </p>
       {/* Accordion Items */}
       {filteredData.length > 0 ? (

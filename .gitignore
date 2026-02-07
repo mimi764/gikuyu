@@ -21,7 +21,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
- background:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-       url(../../images/coppper.jpg) center/cover no-repeat;
+<button
+      className="right"
+      onClick={(e) => {
+        e.stopPropagation(); // IMPORTANT
+        toggleFavorite(item);
+      }}
+    >
+      {isFav ? "❤️" : "🤍"}
+    </button> 

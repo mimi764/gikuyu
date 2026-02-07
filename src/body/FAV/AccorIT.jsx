@@ -5,7 +5,7 @@ import { useFavorites } from "./Fav";
 
 const AccordionItem = ({ item }) => {
   
-  const { favorites, toggleFavorite } = useFavorites();
+  const { favorites } = useFavorites();
   const isFav = favorites.some((f) => f.id === item.id);
   const [activeId, setActiveId] = useState(null);
 
@@ -26,15 +26,8 @@ const AccordionItem = ({ item }) => {
       {item.content}
     </h3>
 
-    <button
-      className="right"
-      onClick={(e) => {
-        e.stopPropagation(); // IMPORTANT
-        toggleFavorite(item);
-      }}
-    >
-      {isFav ? "❤️" : "🤍"}
-    </button>
+    
+    
   </div>
 
   {activeId === item.id && (

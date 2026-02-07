@@ -29,9 +29,7 @@ export default function Navbar() {
           <NavLink to="/about" onClick={() => setOpen(false)}>
             THIMO
           </NavLink>
-          <NavLink to="/favorites" onClick={() => setOpen(false)}>
-            ❤️
-          </NavLink>
+          
         </nav>
       </div>
       
