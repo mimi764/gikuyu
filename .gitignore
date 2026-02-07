@@ -20,13 +20,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-<button
-      className="right"
-      onClick={(e) => {
-        e.stopPropagation(); // IMPORTANT
-        toggleFavorite(item);
-      }}
-    >
-      {isFav ? "❤️" : "🤍"}
-    </button> 
