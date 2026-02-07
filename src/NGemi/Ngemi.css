@@ -1,0 +1,26 @@
+.ngemi{
+    display: block;
+    padding: 7px 5px;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: rgb(243, 243, 224);
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.ngemi h5{
+    margin-bottom: 4px;
+}
+.ngemi ul{
+    display: grid;
+    text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.ngemi ul li{
+    list-style: none;
+}

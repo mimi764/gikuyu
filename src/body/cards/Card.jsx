@@ -8,7 +8,7 @@ const Card = () => {
     <div className='cad'>
       <p className='para'>
         Thaayú nyúmba, njano íno ní ya kúona ní ha túoreirí, kana tukíiga 
-        kíría kíarí gitú múhohio túkíoya kíene. Na tondú túíragwo 'múgathí wa kúona úteaga wa mwene' rí, íí hihi úyú ní witú kana ní wene ?
+        kíría kíarí giitú múhohio túkíoya kíene. Na tondú túíragwo 'múgathí wa kúona úteaga wa mwene' rí, íí hihi úyú ní witú kana ní wene ?
 Úría múgíkúyú arí tene, úmúthí níguo arí? <br/>
 Kana hihi twaneirwo gíthori túkíría kíinií !? <br/>
 Íno no njano útairía ingí no yandíkítwo arí mwíhoko  gúkúhingúra maitho wícúranií wone níkíí maúndú maikara úú. <br/>

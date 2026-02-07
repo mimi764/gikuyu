@@ -3,6 +3,7 @@ import Favorites from "./body/FAV/Favs";
 import About from "./body/navbar/About";
 import Navv from "./body/navbar/Navv";
 import Name from "./lib/Name";
+import Ngemi from "./NGemi/Ngemi";
 import Email from "./lib/Email";
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
         <Route path="/" element={<Navv />} />
           <Route path="/favorites" element={<Favorites />} />
         <Route path="/about" element={<About />} />
-         <Route path="/navv" element={<Navv />} />
+         <Route path="/ngemi" element={<Ngemi />} />
+          <Route path="/navv" element={<Navv />} />
         
       
         </Routes>
