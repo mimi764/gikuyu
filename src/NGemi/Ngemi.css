@@ -4,9 +4,9 @@
     align-items: center;
     font-size: 18px;
     line-height: 1.2;
-    background-color: rgb(243, 243, 224);
+    background-color: rgb(180, 180, 151);
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
     
 }
 
@@ -14,13 +14,12 @@
     margin-bottom: 4px;
 }
 .ngemi ul{
-    display: grid;
+    
     text-decoration: none;
-    flex-direction: row;
-    position: relative;
     padding-left: 1rem;
 }
 
 .ngemi ul li{
     list-style: none;
+    margin-top: 3px;
 }

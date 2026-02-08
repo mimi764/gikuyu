@@ -22,14 +22,12 @@
     margin: 8px 3px;
     width: fit-content;
     height: fit-content;
-    margin-left: 7rem;
     align-items: center;
     margin-bottom: 3px;
     font-size: 15px;
 }
 .foot span{
     font-size: 15px;
-    margin-left: 5px;
 }
 .foot a{
     text-decoration: none;
@@ -39,10 +37,8 @@
     margin-left: auto;
     align-items: center;
     margin-right: 2rem;
+    width: fit-content;
     font-size: 15px;
-}
-.logout-btn a{
-    padding-right: 7rem;
 }
 
 @media (max-width: 360px) {
@@ -50,7 +46,8 @@
         font-size: 12px;
     }
     .logout-btn{
-        margin-top: 3px;
+        width: fit-content;
+        margin-top: 5px;
         margin-right: 1rem;
         font-size: 12px;
     }
