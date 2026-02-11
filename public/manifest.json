@@ -3,9 +3,9 @@
   "name": "GÍKÛYÚ App",
   "icons": [
     {
-      "src": "mwariama.jpeg",
+      "src": "mwariama.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpeg"
+      "type": "image/x-icon"
     },
     {
       "src": "mwinu.jpeg",
