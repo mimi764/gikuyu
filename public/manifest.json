@@ -9,12 +9,12 @@
     },
     {
       "src": "mwinu.jpeg",
-      "type": "image/jpeg",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
       "src": "mwariama.jpeg",
-      "type": "image/jpeg",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
