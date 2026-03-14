@@ -17,6 +17,7 @@ const AccordionItem = ({ item }) => {
   }`}
 >
   <div className="accordion-item">
+   <button className="buton">
     <h3
       className="accordion-header"
       onClick={() =>
@@ -25,6 +26,7 @@ const AccordionItem = ({ item }) => {
     >
       {item.content}
     </h3>
+    </button>
 
 <button
       className="right"
