@@ -18,7 +18,7 @@ const Ngemi = () => {
 <li>2.  Úrathi - </li>
 <li>3.  Úthamaki </li>
 <li>4.  Útonga </li>
-<li>5.  Úcamba - <p>
+<li>5.  Úcamba - <p className='ucamba'>
    Ya úcamba ndiugagírwo wa kairítu níúndú írongoragírio 
            mwana wa kahíí akorwo na úcamba wa gúthií ita gútaha.
   </p></li>
