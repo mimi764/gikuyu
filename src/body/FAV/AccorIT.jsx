@@ -11,7 +11,9 @@ const AccordionItem = ({ item }) => {
   const { toggleFavorite } = useFavorites();
   
 
-  return (<div
+  return (
+    <div>
+  <div
   className={`accordion ${
     activeId === item.id ? "active" : ""
   }`}
@@ -46,6 +48,7 @@ const AccordionItem = ({ item }) => {
       <p>{item.name}</p>
     </div>
   )}
+</div>
 </div>
 
   )

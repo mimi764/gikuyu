@@ -16,6 +16,7 @@
 .buton{
   border: none;
   align-items: center;
+  width: 90%;
 }
 .input .p{
   font-size: 18px;
@@ -36,10 +37,10 @@
 .accordion.active {  
   position: fixed;  /* FIXED POSITIONING */
   top: 10%;
-  background-color: rgb(41, 40, 40);
+  background-color: rgb(15, 15, 15);
   z-index: 999;
-  box-shadow: 0 12px 30px rgba(0,0,80,0.25);
-  width: 80%;
+  box-shadow: 0 12px 30px rgba(1, 1, 37, 0.25);
+  width: 90%;
   height: fit-content;
   opacity: 1;
 }
